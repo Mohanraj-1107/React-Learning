@@ -1,0 +1,65 @@
+.nav
+{
+    width:100%;
+    margin:0;
+    padding:0;
+    height:70px;
+    background-color: royalblue;
+    color:white;
+    display:flex;
+}
+.nav > ul,li{
+    display: flex;
+    padding-left:20px;
+}
+.nav >ul{
+    margin-left:45%;
+    padding-top: 7px;
+}
+.nav>ul>li:hover
+{
+    color:black;
+    cursor:pointer;
+}
+.container
+{
+    display:flex;
+    margin-top: 4%;
+    width:950px;
+    height:600px;
+}
+#input 
+{
+    width:60%;
+    height:30px;
+    margin-left: 21%;
+    display: flex;
+}
+.save
+{
+    margin-left: 20px;
+    width:7%;
+    height:35px;
+    background-color: white;
+    color:blue;  
+}
+.list > .List-items
+{
+    width:15%;
+    height:620px;
+    margin:0;
+    padding:0;
+    border-right: 1px solid #ccc;
+    display:flexbox;
+}
+.list > .List-items > ul>li{
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+.items:hover{
+    color:royalblue;
+}
+.items2
+{
+    color:red;
+}

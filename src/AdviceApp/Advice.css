@@ -1,0 +1,26 @@
+.advice
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border :2px solid #002147 ;
+    margin-top: 10%;
+    padding: 20px;
+    width:70%;
+    margin-left: 14%;
+}
+body{
+    background-color: #ff1dce;
+    color:white;
+}
+button{
+    background-color:#002387 ;
+    color:white;
+    font-size: large;
+    width:15%;
+    border-radius: 8px;
+}
+button:hover{
+    color:black;
+    background-color: azure;
+}

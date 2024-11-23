@@ -1,0 +1,53 @@
+.qrcontain > label,input
+{
+    display: block;
+    margin:10px;
+}
+.qrcontain
+{
+    margin-top: 5%;
+    padding:10px;
+}
+.qrcontain input{
+    padding:10px;
+    width:90%;
+    border-radius: 8px;
+}
+.total
+{
+    width:50%;
+    margin-left: 20%;
+    border: 2px solid black;
+    padding:40px;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.buttons
+{
+    display: flex;
+    margin-left: 2%;
+}
+button
+{
+    width:300px;
+    background-color: rgb(65, 225, 158);
+    color:black;
+    border: none;
+}
+button:hover{
+    background-color: rgb(15, 141, 88);
+    color:black;
+}
+h4{
+    text-align: center;
+}
+.images
+{
+    width:150px;
+    height:150px;
+    align-items: center;
+    margin-left:38%;
+}
+img{
+    border-radius: 0%;
+}
